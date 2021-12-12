@@ -5,8 +5,9 @@ Repositori ini berisi mengenai visualisasi data dan juga rangkuman tertentu dari
 Klik [disini] untuk bisa mengakses live app dengan platform streamlit
 
 ## Creator
-Dibuat dengan cinta dan air mata,
-
-TTD
-Rizqy Auliya Nur Rasyid
+Dibuat dengan cinta dan air mata,  
+  
+  
+TTD  
+Rizqy Auliya Nur Rasyid  
 12220127
