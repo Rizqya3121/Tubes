@@ -3,7 +3,6 @@
 #Program Visualisasi Data Perolehan Minyak Mentah Berbagai Negara dalam Rentang Tahun 1971-2015
 
 from urllib.request import urlopen
-from matplotlib.text import OffsetFrom
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
