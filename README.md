@@ -7,6 +7,6 @@ Klik [disini] untuk bisa mengakses live app dengan platform streamlit
 ## Creator
 Dibuat dengan cinta dan air mata,
 
-ttd
+TTD
 Rizqy Auliya Nur Rasyid
-12220127 
+12220127
