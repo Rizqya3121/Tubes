@@ -9,7 +9,8 @@ Klik [disini](https://share.streamlit.io/rizqya3121/world-crude-oil-production/m
 - Grafik Top-B Negara Produsen Crude Oil di Tahun-N  
 - Grafik Top-B Negara Produsen Crude Oil sepanjang masa  
 - Summary  
-- Grafik Top-B Negara berdasar Rataan Produksi 
+- Grafik Top-B Negara berdasar Rataan Produksi  
+- Advanced Searching 
 
 ## Creator
 Dibuat dengan cinta dan air mata,  
