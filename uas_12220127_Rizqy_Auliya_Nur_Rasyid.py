@@ -15,13 +15,13 @@ from io import BytesIO
 fhand=pd.read_csv("https://raw.githubusercontent.com/Rizqya3121/Tubes/main/produksi_minyak_mentah.csv")
 
 
-############### title ###############
-st.set_page_config(layout="wide")  # this needs to be the first Streamlit command called
+#title main page
+st.set_page_config(layout="wide")
 st.title("Statistik Produksi Minyak Berbagai Negara di Dunia")
 st.markdown("Berikut adalah visualisasi dan rangkuman data produksi minyak dari berbagai negara di dunia dalam rentang tahun 1971-2015")
-############### title ###############)
 
-########sidebar############################
+
+#sidebar
 gambar= requests.get("https://raw.githubusercontent.com/Rizqya3121/Tubes/main/offshore-drilling-rigs.png")
 st.sidebar.image(BytesIO(gambar.content))
 
