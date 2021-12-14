@@ -129,8 +129,7 @@ right_col.subheader("Top {} Produsen of All Time".format(topn))
 dftop=bersih.groupby(bersih['kode_negara']).agg("sum") #Membuat DF dengan menghilangkan data ganda, dan dijumlah value per kolom
 dftop2=dftop.sort_values(by=['produksi'], ascending=False).head(topn).reset_index() #Membuat DF top n produsen
 fig,ax = plt.subplots()
-xaxis=[] #List berisi daftar nama negara pada sumbu y nantinya
-print(dftop2)
+xaxis=[] #List berisi daftar nama negara pada sumbu x nantinya
 fig,ax =plt.subplots()
 for a in dftop2['kode_negara']:
     xaxis.append(wow2[a])
@@ -198,8 +197,6 @@ avg=bersih.groupby(bersih['kode_negara']).agg('mean')
 avg2=avg.sort_values(by=['produksi'], ascending=False).head(topn).reset_index() 
 avgtop=avg2.sort_values(by=['produksi'], ascending=True)
 yax=[] #List untuk menyimpan nama negara sbg sumbu y nantinya
-print(avg)
-print(avgtop)
 
 for a in avgtop['kode_negara']:
     yax.append(wow2[a])
